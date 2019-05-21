@@ -20,8 +20,6 @@ footer {
 #cart {
     display: flex;
     justify-content: space-between;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
 }
 
 .column {
@@ -36,34 +34,31 @@ footer {
     margin: 20px;
 }
 
-#songs p {
+#songs h5 {
     font-size: 18px;
     height: 100px;
     font-weight: bold;
     margin: 20px;
 }
 
-#artists p {
+#artists h3 {
     font-size: 18px;
     height: 100px;
     margin: 20px;
 }
 
-#lengths p {
+#lengths h4 {
     font-size: 16px;
     height: 100px;
     margin: 20px;
     text-align: right;
+    display: flex;
 }
 
-#links a {
+#links iframe {
     display: block;
     font-size: 18px;
     height: 100px;
     font-weight: bold;
     margin: 20px;
-}
-
-div {
-    border: 2px black solid;
 }
