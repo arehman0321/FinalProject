@@ -1,6 +1,10 @@
 
 body {
     padding-top: 200px;
+    background-image: url('https://i.pinimg.com/originals/10/f8/f9/10f8f9cd8d35db43b4c1b3f1c13b0a2b.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
 
@@ -35,20 +39,23 @@ footer {
 }
 
 #songs h5 {
-    font-size: 18px;
+    font-size: 20px;
+    color: white;
     height: 100px;
     font-weight: bold;
     margin: 20px;
 }
 
 #artists h3 {
-    font-size: 18px;
+    font-size: 20px;
+    color: white;
     height: 100px;
     margin: 20px;
 }
 
 #lengths h4 {
-    font-size: 16px;
+    font-size: 20px;
+    color: white;
     height: 100px;
     margin: 20px;
     text-align: right;

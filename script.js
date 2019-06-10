@@ -31,9 +31,11 @@ $('button').click(function(){
                 $('#artists').append("<h3>User: " + artist + "</h3>");
                 
                 var length = response[a].duration;
-                var newLength = length/1000;
-                var newLength2 = newLength/60;
-                $('#lengths').append("<h4>" + newLength2 + "</h4>");
+                var newLength = length/60000;
+                var rounded = newLength.toFixed(2);
+                var final = rounded.replace('.', ':');
+                console.log(final);
+                $('#lengths').append("<h4>" + final + "</h4>");
             }
             
             
