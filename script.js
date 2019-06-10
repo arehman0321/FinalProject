@@ -1,7 +1,7 @@
 /* global $ */
 
 
-$('button').click(function(){
+function search(){
     var userIpt = $('input').val();
     var url = "https://api.soundcloud.com/tracks?q=" + userIpt + "&client_id=5aa8e389ba4e24b6106af5159ab3e344";
     
@@ -41,4 +41,10 @@ $('button').click(function(){
             
         }
     });
+}
+
+$("body").on("keydown", function (e) {
+    if (e.keyCode === 13) {
+        search(e);
+    }
 });
